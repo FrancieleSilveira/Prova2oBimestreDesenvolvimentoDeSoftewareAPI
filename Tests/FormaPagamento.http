@@ -1,0 +1,11 @@
+### Cadastrar um nova forma de pagamento
+POST https://localhost:5001/api/formaPagamento/create
+Content-Type: application/json
+
+{
+    "Nome" : "Credito",
+    "AVista" : true
+}
+
+### Listar todas as formas de pagamento
+GET https://localhost:5001/api/formaPagamento/list
