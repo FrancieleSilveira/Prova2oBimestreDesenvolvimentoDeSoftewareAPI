@@ -1,2 +1,22 @@
 ### Listar vendas
-POST https://localhost:5001/api/venda/list
+GET https://localhost:5001/api/venda/list
+
+### Listar vendas
+GET https://localhost:5001/api/venda/listByCart
+
+### Cadastrar vendas
+POST https://localhost:5001/api/venda/create
+
+{
+    "ClienteId" : 1,
+    "FormaPagamentoId" : 1,
+    "itens":{
+        "ItemVendaId": 7
+
+    }
+}
+
+
+
+
+
